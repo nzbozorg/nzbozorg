@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" fill="none">
+<defs>
+<linearGradient id="bg" x2="1200" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#101c25"/><stop offset="1" stop-color="#080d14"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#77f7c7"/><stop offset="1" stop-color="#7ac7ff"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#93bac8" stroke-opacity=".055"/></pattern>
+</defs>
+<rect width="1200" height="430" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="430" rx="24" fill="url(#grid)"/>
+<path d="M56 57H1144" stroke="#263640"/>
+<circle cx="60" cy="32" r="4" fill="#77f7c7"/>
+<text x="76" y="37" fill="#b3c6cd" font-family="monospace" font-size="12" letter-spacing="2">NZ / PERSONAL SPACE</text>
+<text x="1143" y="37" text-anchor="end" fill="#819aa6" font-family="monospace" font-size="12">HTML → UI → LOGIC → DATA</text>
+<text x="58" y="122" fill="#77f7c7" font-family="monospace" font-size="13" letter-spacing="3">FULL-STACK DEVELOPER</text>
+<text x="54" y="207" fill="#f1f7fa" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700" letter-spacing="-3">Amir NoZohour</text>
+<text x="58" y="253" fill="#a9bcc8" font-family="Arial, Helvetica, sans-serif" font-size="23">From the first pixel to the last query.</text>
+<path d="M58 297H142" stroke="url(#accent)" stroke-width="4"/>
+<text x="58" y="354" fill="#d7e4e9" font-family="monospace" font-size="15" letter-spacing="1">HTML / CSS / JavaScript / React / SQL / Python</text>
+<g transform="translate(890 105)">
+<rect x="0" y="0" width="240" height="185" rx="18" fill="#111f29" stroke="#2d444f"/>
+<path d="M20 40H220" stroke="#2d444f"/>
+<circle cx="23" cy="21" r="3" fill="#77f7c7"/><circle cx="36" cy="21" r="3" fill="#7ac7ff"/><circle cx="49" cy="21" r="3" fill="#58737e"/>
+<text x="120" y="121" text-anchor="middle" font-family="monospace" font-size="61" font-weight="700" fill="url(#accent)">N/Z</text>
+<text x="120" y="157" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="3" fill="#8fa9b5">INTERFACE × LOGIC</text>
+</g>
+<text x="1142" y="396" text-anchor="end" fill="#607e8d" font-family="monospace" font-size="12" letter-spacing="2">@NZBOZORG</text>
+</svg>
