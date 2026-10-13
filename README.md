@@ -1,74 +1,27 @@
-<p align="center">
-  <img src="assets/header.svg" alt="Amir NoZohour — Full-stack developer. From the first pixel to the last query." width="100%" />
-</p>
+# nzbozorg.ir
 
-<p align="center">
-  <a href="https://github.com/nzbozorg">GitHub</a> &nbsp; / &nbsp;
-  <a href="https://t.me/nzornot">Telegram</a> &nbsp; / &nbsp;
-  <a href="https://instagram.com/nzbozorg">Instagram</a> &nbsp; / &nbsp;
-  <a href="https://coffeebede.com/Amir_NoZohour">Buy me a coffee ↗</a>
-</p>
+Personal portfolio of **Amir NoZohour** — full-stack and Android developer working with Kotlin, React, Python, SQL, HTML, CSS, and JavaScript.
 
-<br />
+## Local preview
 
-## 01 / Behind the code
-
-### Hey, I'm 𝑨𝒎𝒊𝒓 𝑵𝒐𝒁𝒐𝒉𝒐𝒖𝒓.
-
-A **full-stack developer** connecting what people see with what makes it work.
-
-My toolkit spans **HTML, CSS, JavaScript, React, Python, and SQL** — from structuring a page and building its interactions to writing application logic and working with data.
-
-**The interface is only half the story. I like building the other half, too.**
-
-<br />
-
-## 02 / My development palette
-
-| Layer | My tools | Where they fit |
-| :--- | :--- | :--- |
-| **Structure & style** | `HTML` · `CSS` | Page structure, layouts, and visual details |
-| **Interaction & UI** | `JavaScript` · `React` | Interactive experiences and component-based interfaces |
-| **Application logic** | `Python` | Backend logic, scripting, and automation |
-| **Data** | `SQL` | Querying, organizing, and connecting information |
-
-```text
-                  THE PART YOU SEE          THE PART THAT POWERS IT
-                 ┌─────────────────┐        ┌─────────────────┐
-                 │ HTML · CSS      │        │ Python          │
-                 │ JavaScript      │  ←──→  │ SQL             │
-                 │ React           │        │ Logic + Data    │
-                 └─────────────────┘        └─────────────────┘
-                            One developer. Both sides.
+```bash
+python3 -m http.server 4173
 ```
 
-<br />
+Then open `http://localhost:4173`.
 
-## 03 / Around the internet
+## Deployment
 
-Different places. Same Amir.
+This is a dependency-free static site prepared for GitHub Pages. The `CNAME` file points Pages to `nzbozorg.ir`.
 
-| Find me | What's on the other side |
-| :--- | :--- |
-| **[GitHub ↗](https://github.com/nzbozorg)** | Explore my repositories and code |
-| **[Telegram ↗](https://t.me/nzornot)** | Start a conversation |
-| **[Instagram ↗](https://instagram.com/nzbozorg)** | Connect beyond the code |
+After enabling GitHub Pages for the `main` branch, configure these DNS records at the domain registrar:
 
-Have a project idea or something interesting to share? **[Say hello on Telegram →](https://t.me/nzornot)**
+| Type | Host | Value |
+|---|---|---|
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | nzbozorg.github.io |
 
-<br />
-
-## 04 / A little fuel for the next build
-
-If you find something useful in my work, you can support me with a coffee. No pressure — taking a look at my projects already means a lot.
-
-**[☕ Buy me a coffee on Coffeebede →](https://coffeebede.com/Amir_NoZohour)**
-
-<br />
-
----
-
-<p align="center">
-  <strong>Pixels. Logic. Data.</strong><br />
-  <sub>Three parts of the same story — built by Amir NoZohour.</sub>
-</p>
+Once DNS resolves, enable **Enforce HTTPS** in repository Settings → Pages.
