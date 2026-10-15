@@ -130,7 +130,7 @@ Have a project, an idea, or something interesting to share?
     <td><strong>Support</strong></td>
     <td><a href="https://coffeebede.com/Amir_NoZohour">Buy me a coffee ↗</a></td>
   </tr>
-</table>
+</table> 
 
 <br />
 
