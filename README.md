@@ -15,7 +15,7 @@
 <br />
 
 ```text
-┌─ NZ / IDENTITY ───────────────────────────────────────────────────────┐
+┌─ NZ / IDENTITY ──────────────────────────────────────────────────────┐
 │                                                                      │
 │  Hey, I'm Amir NoZohour.                                             │
 │  Full-stack developer × Android developer                            │
