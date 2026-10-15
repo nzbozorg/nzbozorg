@@ -21,7 +21,7 @@
 │  Full-stack developer × Android developer                            │
 │                                                                      │
 │  I connect what people see with what makes it work —                 │
-│  from expressive interfaces and native mobile experiences           │
+│  from expressive interfaces and native mobile experiences            │
 │  to application logic and the data underneath.                       │
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
