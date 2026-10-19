@@ -5,16 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0a0b0d">
   <meta name="description" content="Amir NoZohour — full-stack and Android developer crafting expressive interfaces, native Kotlin apps, and reliable systems.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://nzbozorg.ir/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Amir NoZohour">
+  <meta property="og:locale" content="en_US">
   <meta property="og:title" content="Amir NoZohour — Full-stack & Android developer">
-  <meta property="og:description" content="From the first pixel to the last query.">
-  <meta property="og:image" content="https://nzbozorg.ir/assets/amir-cyborg-neutral.webp">
-  <meta property="og:url" content="https://nzbozorg.ir">
+  <meta property="og:description" content="From the first pixel to the last query — web, Android, application logic, and data.">
+  <meta property="og:image" content="https://nzbozorg.ir/assets/amir-cyborg-neutral-mirrored.webp">
+  <meta property="og:image:alt" content="Illustrated portrait of Amir NoZohour">
+  <meta property="og:url" content="https://nzbozorg.ir/">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Amir NoZohour — Full-stack & Android developer">
+  <meta name="twitter:description" content="Web, Android, application logic, and data — built as one complete story.">
+  <meta name="twitter:image" content="https://nzbozorg.ir/assets/amir-cyborg-neutral-mirrored.webp">
   <title>Amir NoZohour — Full-stack & Android developer</title>
   <link rel="icon" href="assets/favicon.png" type="image/png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://nzbozorg.ir/#person",
+        "name": "Amir NoZohour",
+        "url": "https://nzbozorg.ir/",
+        "image": "https://nzbozorg.ir/assets/amir-cyborg-neutral-mirrored.webp",
+        "jobTitle": ["Full-stack Developer", "Android Developer"],
+        "knowsAbout": ["Kotlin", "Android", "React", "JavaScript", "Python", "SQL", "HTML", "CSS"],
+        "sameAs": [
+          "https://github.com/nzbozorg",
+          "https://t.me/nzornot",
+          "https://instagram.com/nzbozorg"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://nzbozorg.ir/#website",
+        "url": "https://nzbozorg.ir/",
+        "name": "Amir NoZohour",
+        "description": "Portfolio of Amir NoZohour, full-stack and Android developer.",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://nzbozorg.ir/#person" }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -29,7 +68,8 @@
     <nav aria-label="Main navigation">
       <a href="#about"><span>01</span> About</a>
       <a href="#craft"><span>02</span> Craft</a>
-      <a href="#contact"><span>03</span> Contact</a>
+      <a href="#projects"><span>03</span> Projects</a>
+      <a href="#contact"><span>04</span> Contact</a>
     </nav>
     <a class="header-cta" href="https://github.com/nzbozorg" target="_blank" rel="noreferrer">
       GitHub
@@ -50,23 +90,11 @@
         <div class="signature"><small>AMIR NOZOHOUR</small></div>
       </div>
 
-      <div class="portrait-stage reveal" data-tilt>
+      <div class="portrait-stage reveal">
         <div class="portrait-halo" aria-hidden="true"></div>
-        <figure class="living-portrait" aria-label="An animated illustrated portrait of Amir NoZohour">
-          <div class="portrait-breathe">
-            <img class="portrait-frame is-active" data-frame="neutral" src="assets/amir-cyborg-neutral.webp" alt="Half-human, half-machine illustrated portrait of Amir NoZohour" width="928" height="1152" fetchpriority="high">
-            <img class="portrait-frame" data-frame="smile" src="assets/amir-cyborg-smile.webp" alt="" width="928" height="1152" aria-hidden="true">
-            <img class="portrait-frame" data-frame="focus" src="assets/amir-cyborg-focus.webp" alt="" width="928" height="1152" aria-hidden="true">
-            <img class="portrait-frame blink-frame" data-frame="blink" src="assets/amir-cyborg-blink.webp" alt="" width="928" height="1152" aria-hidden="true">
-            <div class="smoke-motion" aria-hidden="true"><i></i><i></i><i></i></div>
-            <div class="mechanical-motion" aria-hidden="true">
-              <span class="robot-eye-glow"></span>
-              <span class="mech-joint joint-one"></span>
-              <span class="mech-joint joint-two"></span>
-              <span class="mech-piston"></span>
-            </div>
-          </div>
-          <figcaption><span>PORTRAIT / 001</span><span class="live-indicator"><i></i> LIVING FRAME</span></figcaption>
+        <figure class="living-portrait" aria-label="Illustrated portrait of Amir NoZohour">
+          <img class="portrait-static" src="assets/amir-cyborg-neutral-mirrored.webp" alt="Half-human, half-machine illustrated portrait of Amir NoZohour" width="928" height="1152" fetchpriority="high">
+          <figcaption><span>PORTRAIT / 001</span><span class="static-indicator"><i></i> HUMAN / MACHINE</span></figcaption>
         </figure>
         <span class="orbit-label orbit-one" aria-hidden="true">INTERFACE</span>
         <span class="orbit-label orbit-two" aria-hidden="true">LOGIC</span>
@@ -133,6 +161,37 @@
       </div>
     </section>
 
+    <section class="projects section" id="projects" aria-labelledby="projects-title">
+      <div class="section-number reveal">03 <span>/</span> SELECTED PROJECTS</div>
+      <div class="projects-heading reveal">
+        <h2 id="projects-title">Built to solve.<br><em>Made to last.</em></h2>
+        <p>Selected work across decentralized systems, Android networking, and mobile accessibility.</p>
+      </div>
+      <div class="projects-grid">
+        <a class="project-card reveal" href="https://github.com/kryls/kryls" target="_blank" rel="noreferrer" aria-label="View KRYLS on GitHub">
+          <div class="project-meta"><span>01 / PROTOCOL</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M7 5h12v12"/></svg></div>
+          <div class="project-mark">K•</div>
+          <h3>KRYLS</h3>
+          <p>A non-custodial escrow protocol for digital services, with deterministic settlement across EVM networks.</p>
+          <div class="project-tags"><span>SOLIDITY</span><span>EVM</span><span>NODE.JS</span></div>
+        </a>
+        <a class="project-card reveal" href="https://github.com/nzbozorg/nzvpn" target="_blank" rel="noreferrer" aria-label="View NZVPN on GitHub">
+          <div class="project-meta"><span>02 / ANDROID</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M7 5h12v12"/></svg></div>
+          <div class="project-mark">NZ</div>
+          <h3>NZVPN</h3>
+          <p>A Persian Android VPN client powered by Xray, with smart connection, subscription management, and secure updates.</p>
+          <div class="project-tags"><span>KOTLIN</span><span>COMPOSE</span><span>XRAY</span></div>
+        </a>
+        <a class="project-card reveal" href="https://github.com/nzbozorg/PowerBull" target="_blank" rel="noreferrer" aria-label="View PowerBull on GitHub">
+          <div class="project-meta"><span>03 / ACCESSIBILITY</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M7 5h12v12"/></svg></div>
+          <div class="project-mark">PB</div>
+          <h3>PowerBull</h3>
+          <p>Floating controls and widgets that restore essential Android actions—offline, private, and without root.</p>
+          <div class="project-tags"><span>JAVA</span><span>ANDROID</span><span>OFFLINE</span></div>
+        </a>
+      </div>
+    </section>
+
     <section class="identity-panel section" aria-label="Portrait and personal statement">
       <div class="mono-image reveal">
         <img src="assets/portrait-mono.webp" alt="Black and white silhouette portrait of Amir by a window" width="1200" height="1600" loading="lazy">
@@ -143,7 +202,7 @@
 
     <section class="contact section" id="contact" aria-labelledby="contact-title">
       <div class="contact-top">
-        <div class="section-number reveal">03 <span>/</span> CONTACT</div>
+        <div class="section-number reveal">04 <span>/</span> CONTACT</div>
         <p class="reveal">Have a project, an idea, or just something interesting to share?</p>
       </div>
       <h2 id="contact-title" class="reveal">Let’s make<br><em>something real.</em></h2>
